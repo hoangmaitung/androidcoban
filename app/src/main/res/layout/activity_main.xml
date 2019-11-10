@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="btnPheptinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phép tính"/>
+
+    <Button
+        android:onClick="btnRutbai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rút bài ngẫu nhiên"/>
+
+    <Button
+        android:onClick="btnAsyncTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load hinh tu internet"/>
+
+    <Button
+        android:onClick="btnReadFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doc file tu internet"/>
+
+    <Button
+        android:onClick="btnTruyenthamso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Truyền tham số giữa các màn hình"/>
+
+</LinearLayout>
